@@ -1,0 +1,17 @@
+body{
+    display:flex;
+    flex-direction:column
+}
+.top{
+    display:flex;
+    justify-content: space-evenly;
+}
+li{
+    display:flex;
+}
+.adv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
