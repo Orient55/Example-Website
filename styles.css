@@ -15,3 +15,20 @@ li{
     align-items: center;
     
 }
+.random-information{
+    display:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-container{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    
+}
