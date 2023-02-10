@@ -61,11 +61,15 @@ li{
     font-weight: 300;
     font-style: italic;
     font-size: 36px;
+    width: 900px;
+    text-align: left;
 
     
 }
 .author{
+    display:flex;
     font-weight: bolder;
+    
 }
 .signupcall{
     background-color: orange;
