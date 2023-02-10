@@ -81,8 +81,9 @@ li{
     
 }
 .author{
-    display:flex;
+    align-self: flex-end;
     font-weight: bolder;
+    width: 750px;
     
 }
 .signupcall{
