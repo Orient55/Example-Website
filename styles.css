@@ -23,7 +23,15 @@ li{
     align-items: center;
     background-color: rgb(174,111,3);
     padding:50px;
+    gap: 2rem;
     
+}
+.description-text{
+    width: 400px;
+    padding: 10px;
+}
+.description-text-button{
+    gap: 2rem;
 }
 .random-information{
     display:column;
