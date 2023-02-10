@@ -1,13 +1,21 @@
 body{
     display:flex;
-    flex-direction:column
+    flex-direction:column;
+    margin:0;
+    padding:0;
 }
 .top{
     display:flex;
     justify-content: space-evenly;
+    background-color: rgb(174,111,3);
+}
+.header{
+    font-size: 24px;
+    color:#f9faf8;
 }
 li{
     display:flex;
+    color:#f9faf8;
 }
 .adv{
     display:flex;
@@ -24,6 +32,8 @@ li{
     text-align: center;
     padding-top: 20px;
     padding-bottom:60px;
+    padding-bottom: 100px;
+    
 }
 .card-container{
     display:flex;
@@ -37,17 +47,22 @@ li{
     
 }
 .quote-container{
-    background-color: blue;
+    background-color: rgb(175, 174, 171);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 400px;
     padding-right: 400px;
+    padding: 200px;
 }
 .quote{
-    font-family: light italic;
+    font-family: italic;
+    font-weight: 300;
+    font-style: italic;
     font-size: 36px;
+
+    
 }
 .author{
     font-weight: bolder;
@@ -65,10 +80,50 @@ li{
     
 
 }
+.signup-maintext{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+.signupbutton{
+    background-color: orange;
+    color:#f9faf8;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
 .footer{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding:20px;
+    background-color: rgb(174,111,3);
+    margin-top: 28px;
+}
+.description-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8
+}
+.description-subtext{
+    color:#f9faf8;
+    font-size: 18px;
+
 }
 
-   
+.description-text-button{
+    padding: 20px;
+    
+}
+.adv-button{
+    background-color: orange;
+    color:#f9faf8;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
