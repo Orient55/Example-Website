@@ -32,3 +32,33 @@ li{
     flex-direction: column;
     
 }
+.quote-container{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.quote{
+    font-family: light italic;
+    font-size: 36px;
+}
+.author{
+    font-weight: bolder;
+}
+.signupcall{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   
