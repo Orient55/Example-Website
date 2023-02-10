@@ -32,7 +32,7 @@ li{
     text-align: center;
     padding-top: 20px;
     padding-bottom:60px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     
 }
 .card-container{
@@ -44,8 +44,14 @@ li{
 .card{
     display:flex;
     flex-direction: column;
-    width:140px ;
+    width:140px;
     
+}
+.smallimage{
+    border: 7px solid orange;
+    border-radius: 20px;
+    width: 120px;
+    height:120px;
 }
 .quote-container{
     background-color: rgb(175, 174, 171);
